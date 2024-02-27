@@ -5,6 +5,7 @@
 :root{
     color:white;
     font-family: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+   
 }
 
 @keyframes wave {
@@ -38,6 +39,40 @@
     }
   }
 
+  .blockchains-container {
+    width: 100%; /* Ensure full width */
+    overflow: hidden; /* Hide the overflowing content */
+    position: relative; /* Positioning context for absolute positioning */
+  }
+  
+   .blockchains-list {
+    display: flex;
+    animation: scroll 30s linear infinite; 
+  }
+   
+  @keyframes scroll {
+    0% {
+      transform: translateX(0); /* Start from initial position */
+    }
+    100% {
+      transform: translateX(-100%); /* Move to the left infinitely */
+    }
+  }
+
+  .blockchains-list p {
+    margin: 0 20px;
+   }
+  
+  /* Styling for individual blockchain items */
+  /* .blockchains-list p {
+    border: 1px solid red;
+    margin: 0 20px;
+    height:50px;
+    border-radius: 10px;
+} */
+
+
+  
   
   
   

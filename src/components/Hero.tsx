@@ -1,4 +1,4 @@
-// import main from '../assets/hero/main.jpg'
+
 import ape from '../assets/hero/ape.gif'
 import BlockchainsSupport from './BlockchainsSupport'
 const Hero = () => {
