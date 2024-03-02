@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 :root{
-    color:white;
+    /* color:white; */
     font-family: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
    
+}
+
+.h-90 {
+  height: 90%;
 }
 
 @keyframes wave {
@@ -60,8 +64,14 @@
   }
 
   .blockchains-list p {
-    margin: 0 20px;
-   }
+    margin: 0 40px;
+    border: 1px solid black;
+    padding:10px;
+    border-radius: 20px;
+    /* background-color: white; */
+    color:white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+     }
   
   /* Styling for individual blockchain items */
   /* .blockchains-list p {
@@ -70,9 +80,10 @@
     height:50px;
     border-radius: 10px;
 } */
-
-
-  
+.bg-my{
+  background-color: black;
+  /* background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%); */
+}  
   
   
   
